@@ -1,7 +1,7 @@
 # Review Web Page Content for Information Leakage
 
-|ID          |
-|------------|
+|ID|
+|-|
 |WSTG-INFO-05|
 
 ## Summary
@@ -14,9 +14,9 @@ For large web applications, performance issues are a big concern to programmers.
 
 ## Test Objectives
 
-- Review web page comments, metadata, and redirect bodies to find any information leakage.
-- Gather JavaScript files and review the JS code to better understand the application and to find any information leakage.
-- Identify if source map files or other frontend debug files exist.
+* Review web page comments, metadata, and redirect bodies to find any information leakage.
+* Gather JavaScript files and review the JS code to better understand the application and to find any information leakage.
+* Identify if source map files or other frontend debug files exist.
 
 ## How to Test
 
@@ -51,9 +51,9 @@ Check HTML version information for valid version numbers and Data Type Definitio
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
 ```
 
-- `strict.dtd` -- default strict DTD
-- `loose.dtd` -- loose DTD
-- `frameset.dtd` -- DTD for frameset documents
+* `strict.dtd` -- default strict DTD
+* `loose.dtd` -- loose DTD
+* `frameset.dtd` -- DTD for frameset documents
 
 Some `META` tags do not provide active attack vectors but instead allow an attacker to profile an application:
 
@@ -108,7 +108,7 @@ For example, if testers find a Google Map API Key, they can check if this API Ke
 
 <script type="application/json">
 ...
-{"GOOGLE_MAP_API_KEY":"AIzaSyDUEBnKgwiqMNpDplT6ozE4Z0XxuAbqDi4", "RECAPTCHA_KEY":"6LcPscEUiAAAAHOwwM3fGvIx9rsPYUq62uRhGjJ0"}
+{ "RECAPTCHA\_KEY":"6LcPscEUiAAAAHOwwM3fGvIx9rsPYUq62uRhGjJ0"}
 ...
 </script>
 ```
@@ -118,7 +118,7 @@ In some cases, testers may find sensitive routes from JavaScript code, such as l
 ```html
 <script type="application/json">
 ...
-"runtimeConfig":{"BASE_URL_VOUCHER_API":"https://staging-voucher.victim.net/api", "BASE_BACKOFFICE_API":"https://10.10.10.2/api", "ADMIN_PAGE":"/hidden_administrator"}
+"runtimeConfig":{"BASE\_URL\_VOUCHER\_API":"https://staging-voucher.victim.net/api", "BASE\_BACKOFFICE\_API":"https://10.10.10.2/api", "ADMIN\_PAGE":"/hidden\_administrator"}
 ...
 </script>
 ```
@@ -133,7 +133,7 @@ Check source map files for any sensitive information that can help the attacker 
 {
   "version": 3,
   "file": "static/js/main.chunk.js",
-  "sources": [
+  "sources": \[
     "/home/sysadmin/cashsystem/src/actions/index.js",
     "/home/sysadmin/cashsystem/src/actions/reportAction.js",
     "/home/sysadmin/cashsystem/src/actions/cashoutAction.js",
@@ -188,31 +188,32 @@ exiftool file.docx
 
 Check metadata fields such as:
 
-- Producer
-- Creator
-- Application
-- Creation Tool
-- Library Version
+* Producer
+* Creator
+* Application
+* Creation Tool
+* Library Version
 
 ## Tools
 
-- [Wget](https://www.gnu.org/software/wget/wget.html)
-- Browser "view source" function
-- Eyeballs
-- [Curl](https://curl.haxx.se/)
-- [Zed Attack Proxy (ZAP)](https://www.zaproxy.org)
-- [Burp Suite](https://portswigger.net/burp)
-- [Waybackurls](https://github.com/tomnomnom/waybackurls)
-- [Google Maps API Scanner](https://github.com/ozguralp/gmapsapiscanner/)
-- [exiftool](https://exiftool.org/)
+* [Wget](https://www.gnu.org/software/wget/wget.html)
+* Browser "view source" function
+* Eyeballs
+* [Curl](https://curl.haxx.se/)
+* [Zed Attack Proxy (ZAP)](https://www.zaproxy.org)
+* [Burp Suite](https://portswigger.net/burp)
+* [Waybackurls](https://github.com/tomnomnom/waybackurls)
+* [Google Maps API Scanner](https://github.com/ozguralp/gmapsapiscanner/)
+* [exiftool](https://exiftool.org/)
 
 ## References
 
-- [KeyHacks](https://github.com/streaak/keyhacks)
-- [RingZer0 Online CTF](https://ringzer0ctf.com/challenges/104) - Challenge 104 "Admin Panel".
+* [KeyHacks](https://github.com/streaak/keyhacks)
+* [RingZer0 Online CTF](https://ringzer0ctf.com/challenges/104) - Challenge 104 "Admin Panel".
 
 ### Whitepapers
 
-- [HTML version 4.01](https://www.w3.org/TR/1999/REC-html401-19991224)
-- [XHTML](https://www.w3.org/TR/2010/REC-xhtml-basic-20101123/)
-- [HTML version 5](https://www.w3.org/TR/html5/)
+* [HTML version 4.01](https://www.w3.org/TR/1999/REC-html401-19991224)
+* [XHTML](https://www.w3.org/TR/2010/REC-xhtml-basic-20101123/)
+* [HTML version 5](https://www.w3.org/TR/html5/)
+
