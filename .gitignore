@@ -10,3 +10,7 @@ data/chroma_db/
 # Large corpus source files - decide per-file whether these belong in git.
 # PDFs especially can be excluded and fetched via a setup script instead.
 data/corpus/*/*.pdf
+results.txt
+results2.txt
+query_pass_results.json
+query_pass_results_v2.json
