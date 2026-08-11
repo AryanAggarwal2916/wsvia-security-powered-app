@@ -1,0 +1,9 @@
+# Core RAG stack (locked in per brief)
+sentence-transformers
+chromadb
+groq
+pymupdf
+streamlit
+
+# Utility
+python-dotenv

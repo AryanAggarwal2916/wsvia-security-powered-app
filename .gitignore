@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Vector DB persisted data - don't commit, rebuild from corpus
+data/chroma_db/
+
+# Large corpus source files - decide per-file whether these belong in git.
+# PDFs especially can be excluded and fetched via a setup script instead.
+data/corpus/*/*.pdf

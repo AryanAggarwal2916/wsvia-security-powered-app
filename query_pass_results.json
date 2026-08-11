@@ -1,0 +1,272 @@
+[
+  {
+    "num": 1,
+    "query": "What CVE corresponds to Log4Shell and what OWASP category is it?",
+    "top_chunks": [
+      {
+        "heading": "Background.",
+        "distance": 0.8728753328323364
+      },
+      {
+        "heading": "CVE-2021-40444 \u2014 Authentication Failures",
+        "distance": 0.8902245163917542
+      },
+      {
+        "heading": "CVE-2020-1472 \u2014 Authentication Failures",
+        "distance": 0.9414869546890259
+      }
+    ]
+  },
+  {
+    "num": 2,
+    "query": "What is the CVSS score of CVE-2020-1472 (Zerologon)?",
+    "top_chunks": [
+      {
+        "heading": "CVE-2021-40444 \u2014 Authentication Failures",
+        "distance": 0.7558419108390808
+      },
+      {
+        "heading": "CVE-2020-1472 \u2014 Authentication Failures",
+        "distance": 0.7590804100036621
+      },
+      {
+        "heading": "CVE-2022-3602 \u2014 Cryptographic Failures",
+        "distance": 0.8476905226707458
+      }
+    ]
+  },
+  {
+    "num": 3,
+    "query": "What CWE IDs are associated with CVE-2021-44228?",
+    "top_chunks": [
+      {
+        "heading": "CVE-2021-40444 \u2014 Authentication Failures",
+        "distance": 0.7032678127288818
+      },
+      {
+        "heading": "Background.",
+        "distance": 0.8430625200271606
+      },
+      {
+        "heading": "CVE-2022-3602 \u2014 Cryptographic Failures",
+        "distance": 0.861802339553833
+      }
+    ]
+  },
+  {
+    "num": 4,
+    "query": "What vulnerability class is CVE-2023-20198?",
+    "top_chunks": [
+      {
+        "heading": "CVE-2022-3602 \u2014 Cryptographic Failures",
+        "distance": 0.6764371395111084
+      },
+      {
+        "heading": "How the data is used for selecting categories and ranking them",
+        "distance": 0.6908411383628845
+      },
+      {
+        "heading": "CVE-2021-40444 \u2014 Authentication Failures",
+        "distance": 0.7110429406166077
+      }
+    ]
+  },
+  {
+    "num": 5,
+    "query": "When was CVE-2020-0601 published?",
+    "top_chunks": [
+      {
+        "heading": "CVE-2022-3602 \u2014 Cryptographic Failures",
+        "distance": 0.874489426612854
+      },
+      {
+        "heading": "CVE-2021-40444 \u2014 Authentication Failures",
+        "distance": 0.9162214994430542
+      },
+      {
+        "heading": "CVE-2022-0778 \u2014 Cryptographic Failures",
+        "distance": 0.9189152717590332
+      }
+    ]
+  },
+  {
+    "num": 6,
+    "query": "What's an example of a Broken Access Control vulnerability with CVSS 10.0?",
+    "top_chunks": [
+      {
+        "heading": "CVE-2021-38647 \u2014 Broken Access Control",
+        "distance": 0.5341704487800598
+      },
+      {
+        "heading": "CVE-2022-26923 \u2014 Broken Access Control",
+        "distance": 0.6690516471862793
+      },
+      {
+        "heading": "Background.",
+        "distance": 0.7358438968658447
+      }
+    ]
+  },
+  {
+    "num": 7,
+    "query": "Compare CVE-2021-44228 and CVE-2022-22947 \u2014 what do they have in common?",
+    "top_chunks": [
+      {
+        "heading": "CVE-2022-3602 \u2014 Cryptographic Failures",
+        "distance": 0.9421128630638123
+      },
+      {
+        "heading": "CVE-2021-40444 \u2014 Authentication Failures",
+        "distance": 0.9708188772201538
+      },
+      {
+        "heading": "CVE-2022-0778 \u2014 Cryptographic Failures",
+        "distance": 1.0121411085128784
+      }
+    ]
+  },
+  {
+    "num": 8,
+    "query": "Which CVEs in the corpus fall under A05:2025 Injection with CVSS 9.8 or higher?",
+    "top_chunks": [
+      {
+        "heading": "Background.",
+        "distance": 0.8308206796646118
+      },
+      {
+        "heading": "How the data is used for selecting categories and ranking them",
+        "distance": 0.8524034023284912
+      },
+      {
+        "heading": "How the data is used for selecting categories and ranking them",
+        "distance": 0.8849286437034607
+      }
+    ]
+  },
+  {
+    "num": 9,
+    "query": "What OWASP category does ProxyLogon (CVE-2021-27065) fall under, and why?",
+    "top_chunks": [
+      {
+        "heading": "CVE-2021-40444 \u2014 Authentication Failures",
+        "distance": 0.9524542093276978
+      },
+      {
+        "heading": "CVE-2020-1472 \u2014 Authentication Failures",
+        "distance": 0.9653480648994446
+      },
+      {
+        "heading": "Intercepting Proxy Tools",
+        "distance": 0.9663078188896179
+      }
+    ]
+  },
+  {
+    "num": 10,
+    "query": "Explain why CVE-2020-1472 is dangerous despite a 5.5 CVSS score.",
+    "top_chunks": [
+      {
+        "heading": "How the data is used for selecting categories and ranking them",
+        "distance": 0.7002958655357361
+      },
+      {
+        "heading": "How the data is used for selecting categories and ranking them",
+        "distance": 0.7259350419044495
+      },
+      {
+        "heading": "How the data is used for selecting categories and ranking them",
+        "distance": 0.7624841332435608
+      }
+    ]
+  },
+  {
+    "num": 11,
+    "query": "What's the remediation for Log4Shell?",
+    "top_chunks": [
+      {
+        "heading": "List of Mapped CWEs",
+        "distance": 1.1195080280303955
+      },
+      {
+        "heading": "References.",
+        "distance": 1.150867223739624
+      },
+      {
+        "heading": "Remediation",
+        "distance": 1.1700559854507446
+      }
+    ]
+  },
+  {
+    "num": 12,
+    "query": "Is there a CVE related to Struts2 RCE in the corpus?",
+    "top_chunks": [
+      {
+        "heading": "CVE-2019-0230 \u2014 OGNL Injection",
+        "distance": 0.9524205327033997
+      },
+      {
+        "heading": "Example attack scenarios.",
+        "distance": 1.0968540906906128
+      },
+      {
+        "heading": "CVE-2017-5638 \u2014 Command Injection",
+        "distance": 1.113165259361267
+      }
+    ]
+  },
+  {
+    "num": 13,
+    "query": "What CVE exists for GhostFrameworkXYZ?",
+    "top_chunks": [
+      {
+        "heading": "Example attack scenarios.",
+        "distance": 1.1226993799209595
+      },
+      {
+        "heading": "CVE-2021-40444 \u2014 Authentication Failures",
+        "distance": 1.1404656171798706
+      },
+      {
+        "heading": "CVE-2019-3396 \u2014 Template Injection",
+        "distance": 1.164031744003296
+      }
+    ]
+  },
+  {
+    "num": 14,
+    "query": "What's the OWASP A03:2025 category about?",
+    "top_chunks": [
+      {
+        "heading": "How the categories are structured",
+        "distance": 0.7126284837722778
+      },
+      {
+        "heading": "About This Release",
+        "distance": 0.7715404033660889
+      },
+      {
+        "heading": "Introduction",
+        "distance": 0.9685821533203125
+      }
+    ]
+  },
+  {
+    "num": 15,
+    "query": "What's the most severe vulnerability in the entire corpus?",
+    "top_chunks": [
+      {
+        "heading": "Background.",
+        "distance": 0.9526453018188477
+      },
+      {
+        "heading": "Security Testing and Risk Analysis",
+        "distance": 0.9772524237632751
+      },
+      {
+        "heading": "What is a Vulnerability?",
+        "distance": 0.9919071793556213
+      }
+    ]
+  }
+]
